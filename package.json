@@ -1,0 +1,31 @@
+{
+  "name": "thewitcher",
+  "version": "1.0.0",
+  "description": "Api TheWitcher",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-Martins22/BackEnd-Projeto-TheWitcher.git"
+  },
+  "author": "Jean Martins de Melo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jean-Martins22/BackEnd-Projeto-TheWitcher/issues"
+  },
+  "homepage": "https://github.com/Jean-Martins22/BackEnd-Projeto-TheWitcher#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
