@@ -11,12 +11,14 @@ const validaID = async (req, res, next) => {
 
   try {
     const personagem = await Personagem.findById(id);
-    if(!personagem){
-        return res.status(404).send({msg: "Personagem não encontrado."})
+    if (!personagem) {
+      return res
+        .status(404)
+        .send({ msgMiddleware: "Personagem não encontrado." });
     }
-    res.personagem = personagem
+    res.personagem = personagem;
   } catch (err) {
-    return res.status(500).send({error: err})
+    return res.status(500).send({ error: err });
   }
 
   next();
