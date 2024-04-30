@@ -47,4 +47,6 @@ Essa é a estrutura JSON para fazer o POST e o PUT:
 }
 ```
 
+Vídeo da API funcionando: https://youtu.be/kF1dlKioXRI?si=LwFeY9dtf5DgIn5r
+
 Obrigado por testar e utilizar minha API, volte sempre!
